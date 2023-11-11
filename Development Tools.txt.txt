@@ -1,0 +1,6 @@
+FireBase: Google tools for: Back-end, Hosting, Authentication.
+Firestore: A NoSQL document database built for automatic scaling, high performance, and ease of application development
+Redux: A library for managing and centralizing the application state
+FowardRef: Allows parent components to move down refs to their children. Gives Child components a reference to a DOM entity.
+Assists the child to read and modify the element from any location where it is used.
+Used a ForwardRef to implement FlipMove library, allowing component animations.

@@ -1,0 +1,34 @@
+How to deploy:
+
+1. Open a command prompt terminal (not powershell!) in dir and enter: 
+firebase login
+
+2. Select your google account from pop up
+
+3. Enter:
+firebase init
+Y
+
+4. Selecting the 'Hosting: configure files...' option by:
+using arrows to direct
+spacebar to select
+enter to confirm
+
+5. Select 'use an existing project'
+
+6. Select 'LinkedIn-v2' 
+
+7. For public directory, enter: 
+build
+
+8. single-page app?: 
+y
+
+9. setup atuomatic builds with github?: 
+n
+
+10. Once done, enter: 
+npm run build
+
+11. once done, enter:
+firebase deploy
